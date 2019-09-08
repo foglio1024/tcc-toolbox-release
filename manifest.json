@@ -29,17 +29,17 @@
 		"TCC.Loader.pdb": "ae13ef6ead115b51acb8ba648cf403602cb656c4dfa6948d3493de59bb68833d",
 		"TCC.Modules.dll": "8200b56184b538faabe9f534a2f6b3179f94c29ec036d593104e52b4928ebd9e",
 		"TCC.Modules.pdb": "0b398e6621cffcfa67dbd80dae1fb85999e6ebb22487b4b05783965c1eb10af3",
-		"TCC.exe": "42422d9637afe84834c23e226f7d960c88b614a2170d05028b071fe853be1b99",
+		"TCC.exe": "2c5d5632113777d5d82b74e3f922cba55be7f4b62400a10c70d0f1a441451f9a",
 		"TCC.exe.config": "a374b7d6c6a2e6762e6aff1795feeb0e354ffbc700e5d14380f09b4ab8e54212",
-		"TCC.pdb": "989569622e88bc3c5f46ddf3184b426db34221caa5569962fb01d752e0346393",
-		"TCCupdater.exe": "68057adb7cfa26003da0cc5268d0173273cc0f0cb4fb2070c33858b90fffd498",
+		"TCC.pdb": "49f1188f0d46adf3d9f6dc7782640482275d09c94025694d404e1eede445d307",
+		"TCCupdater.exe": "055f1b536db151bd52adf7eb1e2388cf604cc3b4e931dac97048cf2b8b41c974",
 		"TCCupdater.exe.config": "856e2ff8f78c05d867336c4b92950c90ad0eb23eac9f22fa8dceeb222ce1e417",
-		"TCCupdater.pdb": "a5075d255701b0001bdccbfa84f4ef073e89a1825e019acaa9dec5dabce1da96",
+		"TCCupdater.pdb": "b5e7d9e721b3984d09b77b16e4d4f23706325b814cc0af3ede20229b496c8cda",
 		"TeraDataLite.dll": "30f6829abdaacfc0cac8a333e5467fada1f3a486b2f1156efb7ea1ffea56a2ea",
 		"TeraDataLite.pdb": "7fe43063eecc5c3f3aa87abb167995da59e9dcdfd9613c78f98c01bac921984f",
 		"TeraPacketParser.dll": "8c24cce5ce58429b31fd8a02131c231fe6e1de02a1e4f1930900ed10b6756037",
 		"TeraPacketParser.pdb": "592a9c851f8247e2f5cedd0a70d7affa1ccef6c3559e2ff46a6492c8bc1dd2b9",
-		"index.js": "503f49450691e1b97b2349eb3a95005da9a5ecd8a84763c602022afaa4c87720",
+		"index.js": "d628bdc458e509ad9ea573c16ded7b8259a99a1775f71a3c6d17b07100637986",
 		"module.json": "26df38a15172fcd7943334d44a73a17a0f0c1180c318a386f1b16bcb51546be0"
 	}
 }
