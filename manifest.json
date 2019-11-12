@@ -36,27 +36,6 @@
 		"TeraPacketParser.pdb": "e9b8d0f6b163bcd8cc4be9c77b562f99db53157c3affd7ba5779528b3cd667ad",
 		"index.js": "8d150582a2d333c545bbe33af39b758fd54cb04d78aab14f3ebde17d0cb65785",
 		"module.json": "26df38a15172fcd7943334d44a73a17a0f0c1180c318a386f1b16bcb51546be0",
-		"ngen.exe": "98f88567408650540e809f5a5c1c97a188fe43929099d197c58edbbd72c17a50",
-		"resources/config/server-overrides.txt": "f0328cbc62c44651ac1ee3ca41ffe0ad760e3744915345cb21508114b91b3fc0",
-		"resources/data/acc_benefits/acc_benefits-EU-EN.tsv": "e7e76912d029523170805f5a0dd17f580c408dd8ab7987bd12192209be960b64",
-		"resources/data/achi_grade/achi_grade-EU-EN.tsv": "5ae5c864db928b110d8f1709e22a81f6022d5922ebb7aa283c3a0279d7c3115c",
-		"resources/data/achievements/achievements-EU-EN.tsv": "38492981c8c63a7bb0d1927769bec7a61adbf2abb8b59a24dff34dbc51715c24",
-		"resources/data/default-dungeon-defs.tsv": "4962aa372b67922587376262e17296fdcc49bfbd58ba93784219cf9ad8e38e8c",
-		"resources/data/dungeon-defs.tsv": "4962aa372b67922587376262e17296fdcc49bfbd58ba93784219cf9ad8e38e8c",
-		"resources/data/dungeons/dungeons-EU-EN.tsv": "c798febedc1e5979008303ad5b5673bceda1dbb49400d613e3277f3e8ec76c3e",
-		"resources/data/equip_exp/equip_exp-EU-EN.xml": "7677f97799439d7dfc44d8f0435cbe4eb00cfd148948884b6d1ff7c6b5aab160",
-		"resources/data/guild_quests/guild_quests-EU-EN.tsv": "956668010f0b18409d02f9509c64c9df321215aec77ec861e5d92975929b3a27",
-		"resources/data/hotdot/hotdot-EU-EN.tsv": "6901ee8d32aee19791675ed89233f550972092ce730a75895ab6bd9829bc4014",
-		"resources/data/items/items-EU-EN.tsv": "a10b8913c3c68ce6dbff0377bfe02dd53c155a1decaaf53584b286d430bb812a",
-		"resources/data/monsters/monsters-EU-EN.xml": "0b789bce4ea2ee019b9fd585f98da0baea92d1c636f7deca9545525c980956a9",
-		"resources/data/monsters/monsters-override.xml": "7c34f4392f21c6bcd4edd706a2d74cc9aa5ac8c7ef6bfdbd5820791655cc1b3b",
-		"resources/data/quests/quests-EU-EN.tsv": "5f9ae8c34137604be9379135a1effe61bfc8b835185f0267751efc90b5adecec",
-		"resources/data/regions/regions-EU-EN.tsv": "8d30c7c6e3b58240e889aee87ddeb0aa62f4897bb31a7cf33d9fb9a6d8903df1",
-		"resources/data/section_images.tsv": "303863ecd63a566547b609670aab15501eaf513254f38f5444f1878a2ff4b36a",
-		"resources/data/servers.txt": "f2e362116757b773b8342e07121bb3b8cc180c8c6bd7aeb0256cce6b0d1362e1",
-		"resources/data/skills/skills-EU-EN.tsv": "86d5d42444648777ba30b8fb5e0b5dcfd67dae594047a1387081bb11e4e64749",
-		"resources/data/social/social-EU-EN.tsv": "0a281e225665cab9dea96f4be36b06a3c8b9e7f74695dacd8d99ed8baa333b24",
-		"resources/data/sys_msg/sys_msg-EU-EN.tsv": "6a923f3e8d79db263d87b0d01c9972225e87833a130820110f694fec4429cb9a",
-		"resources/data/world_map/world_map-EU-EN.xml": "f4b187ada6e566c5a7aafb96b28c33ed9c3d3e3f3b54f569ebff741c8ea22093"
+		"ngen.exe": "98f88567408650540e809f5a5c1c97a188fe43929099d197c58edbbd72c17a50"
 	}
 }
