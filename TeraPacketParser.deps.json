@@ -1,0 +1,87 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "TeraPacketParser/1.0.0": {
+        "dependencies": {
+          "Nostrum": "1.2.2",
+          "PacketDotNet": "0.13.0",
+          "SharpPcap": "4.2.0",
+          "TeraDataLite": "1.0.0"
+        },
+        "runtime": {
+          "TeraPacketParser.dll": {}
+        }
+      },
+      "Nostrum/1.2.2": {
+        "runtime": {
+          "lib/netcoreapp3.1/Nostrum.dll": {
+            "assemblyVersion": "1.2.2.0",
+            "fileVersion": "1.2.2.0"
+          }
+        }
+      },
+      "PacketDotNet/0.13.0": {
+        "runtime": {
+          "lib/net/PacketDotNet.dll": {
+            "assemblyVersion": "0.13.0.0",
+            "fileVersion": "0.13.0.0"
+          }
+        }
+      },
+      "SharpPcap/4.2.0": {
+        "dependencies": {
+          "PacketDotNet": "0.13.0"
+        },
+        "runtime": {
+          "lib/net/SharpPcap.dll": {
+            "assemblyVersion": "4.2.0.0",
+            "fileVersion": "4.2.0.0"
+          }
+        }
+      },
+      "TeraDataLite/1.0.0": {
+        "runtime": {
+          "TeraDataLite.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TeraPacketParser/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Nostrum/1.2.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MUPB1ndzrQr3MeiiW6H62PBklGBXLR1iHLebQgaKWb8Q4XaYWSSbIdomXpLFisRfXRfj34GlAd051TgmmTTzcQ==",
+      "path": "nostrum/1.2.2",
+      "hashPath": "nostrum.1.2.2.nupkg.sha512"
+    },
+    "PacketDotNet/0.13.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uxoebIuWxvHcMEfYKHgLyYvaYabM2UiDnr7zWV8vLRBJclr7xSqULSRQlSzCQ2YTkpAI5zB5oYVNEdbD3gewdA==",
+      "path": "packetdotnet/0.13.0",
+      "hashPath": "packetdotnet.0.13.0.nupkg.sha512"
+    },
+    "SharpPcap/4.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-f156C8z8gFgExPOAqVTu5HNeXIy43SMKgAzjWTi/ZoZx8Yc0wtQ+nzcee0d/r8CUIk0FBhmSwrVvGPx616CWzQ==",
+      "path": "sharppcap/4.2.0",
+      "hashPath": "sharppcap.4.2.0.nupkg.sha512"
+    },
+    "TeraDataLite/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
