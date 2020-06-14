@@ -1,9 +1,0 @@
-{
-  "runtimeOptions": {
-    "tfm": "netcoreapp31",
-    "framework": {
-      "name": "Microsoft.WindowsDesktop.App",
-      "version": "3.1.0"
-    }
-  }
-}
