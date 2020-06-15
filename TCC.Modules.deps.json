@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v3.1": {
       "TCC.Modules/1.0.0": {
         "dependencies": {
-          "TCC": "1.4.95",
+          "TCC": "1.4.96",
           "TeraPacketParser": "1.0.0"
         },
         "runtime": {
@@ -608,7 +608,7 @@
           }
         }
       },
-      "TCC/1.4.95": {
+      "TCC/1.4.96": {
         "dependencies": {
           "HtmlAgilityPack": "1.11.18",
           "Microsoft.Diagnostics.Runtime": "2.0.130507",
@@ -1164,7 +1164,7 @@
       "path": "system.xml.xpath.xmldocument/4.3.0",
       "hashPath": "system.xml.xpath.xmldocument.4.3.0.nupkg.sha512"
     },
-    "TCC/1.4.95": {
+    "TCC/1.4.96": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
