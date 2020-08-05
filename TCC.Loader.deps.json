@@ -30,11 +30,11 @@
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
       "Microsoft.NETCore.Targets/1.1.0": {},
-      "Nostrum/1.2.2": {
+      "Nostrum/1.2.6": {
         "runtime": {
           "lib/netcoreapp3.1/Nostrum.dll": {
-            "assemblyVersion": "1.2.2.0",
-            "fileVersion": "1.2.2.0"
+            "assemblyVersion": "1.2.6.0",
+            "fileVersion": "1.2.6.0"
           }
         }
       },
@@ -517,7 +517,7 @@
       "TCC.Utils/1.0.0": {
         "dependencies": {
           "HtmlAgilityPack": "1.11.18",
-          "Nostrum": "1.2.2"
+          "Nostrum": "1.2.6"
         },
         "runtime": {
           "TCC.Utils.dll": {}
@@ -552,12 +552,12 @@
       "path": "microsoft.netcore.targets/1.1.0",
       "hashPath": "microsoft.netcore.targets.1.1.0.nupkg.sha512"
     },
-    "Nostrum/1.2.2": {
+    "Nostrum/1.2.6": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-MUPB1ndzrQr3MeiiW6H62PBklGBXLR1iHLebQgaKWb8Q4XaYWSSbIdomXpLFisRfXRfj34GlAd051TgmmTTzcQ==",
-      "path": "nostrum/1.2.2",
-      "hashPath": "nostrum.1.2.2.nupkg.sha512"
+      "sha512": "sha512-pecLz9on+uunXILbVW7GPHecG4yN0LwywiAe2yxtB/5DCWYyV9yfbWY4fhTtjd2wAnrIrQ642GXWofcdefIUWg==",
+      "path": "nostrum/1.2.6",
+      "hashPath": "nostrum.1.2.6.nupkg.sha512"
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
       "type": "package",
