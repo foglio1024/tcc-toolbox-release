@@ -36,7 +36,17 @@
 		"TeraPacketParser.deps.json": "cbc82850a78b67d9347bdd81346eca8aca361d1072eb206125c062f8a3ccb49b",
 		"TeraPacketParser.dll": "02d9818a66aabd1ff1307634c8add53d8f22a4a9e272b63364b3b509df547840",
 		"TeraPacketParser.pdb": "1bb85b8cf5f3022129d2b7f9915f23375bc5e98f1fafed378c62148fe1807e27",
-		"index.js": "eca311d3d897f9c8b233ebfe25d39f579657ded55a7fa1ab49b94da65196fdbe",
+		"gpk/S1UI_Abnormality.gpk": "c80e5a537068cddc020d4182ba8d4b074c875f2bd1c30c8c29b58df4a42614b7",
+		"gpk/S1UI_CharacterWindow.gpk": "8887f3934cc18ebe1d1d483980d50fbd500818c313ca3f16e016908aca03ea53",
+		"gpk/S1UI_Chat2.gpk": "cf4dd446cd44be295f3f8de5d7f506123e41c104f0bb16ecc3a4ca3dbe986010",
+		"gpk/S1UI_GageBoss.gpk": "7e3fad36d8b96a14d2663694de6d71e7d29b34cbcee850cc700641dcf3946e6d",
+		"gpk/S1UI_PartyBoard.gpk": "a9143c1dfe7bac9607068ab2acda6369bcf698fd78962a430be7b17fdbff30fc",
+		"gpk/S1UI_PartyBoardMemberInfo.gpk": "61127050fbd52a686a0bdc3affc66f86795cd85ccb136f361b43511a72258f57",
+		"gpk/S1UI_PartyWindow.gpk": "4d5beabb5ce39180cbbdc70f24f0584d8b1a30170dd5ff22b0fdb24e9a7de296",
+		"gpk/S1UI_PartyWindowRaidInfo.gpk": "7c68b115f5240b6f8af76685feba6439e3baf5c39013aadaf8b1ba95cbe3b0ca",
+		"gpk/S1UI_ProgressBar.gpk": "f269f57e7889046a386ad1a6029738a30ea777402ae12ab3860fe380d018fd2f",
+		"gpk/S1UI_TargetInfo.gpk": "0cca883d6a8ca8a07fc336288c5629623983b4e67dbd6292437c83cf03078d91",
+		"index.js": "7b7faa6c1ad8a8c31e5cfc555608fde2893b7cf3b127a8616354d2f8caf8e2c4",
 		"module.json": "1b771af6445181d80c16d72e4fc32ab03a17839916d0d889d33fd99f8dc28685"
 	}
 }
