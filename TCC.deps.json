@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "TCC/1.4.105": {
+      "TCC/1.4.106": {
         "dependencies": {
           "HtmlAgilityPack": "1.11.18",
           "Microsoft.Diagnostics.Runtime": "2.0.130507",
@@ -661,7 +661,7 @@
     }
   },
   "libraries": {
-    "TCC/1.4.105": {
+    "TCC/1.4.106": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
