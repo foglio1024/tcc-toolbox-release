@@ -53,7 +53,7 @@
 		"lib/rpc-server.js": "80665c343a5d308e7be12a0bf672e41bd0765ebd20ef73efa5ae51c1c3148960",
 		"lib/tcc-chat-link.js": "43a6b79eb401ee35401ee5a647d085bd6c0942c405fa63e04c9f9a41cf6587bd",
 		"lib/tcc-interface.js": "9b43ec45d1911bd464bfacac027805b5f3ee170c29047d06e23db9e62bfdc928",
-		"lib/tcc-launcher.js": "cadd0428a2d1cbdceb74dd6aedb98dea6831ec3a901c7c4c3f4570dab378a45e",
+		"lib/tcc-launcher.js": "559a1bce0f15dc2dbdf3ab9de0d76e32c79a60af505e4d5ced2fe8ac4368694e",
 		"lib/tcc-stub.js": "5d665c6e0f32d49c28cba6831a5c0ee048d43f37cb41f86888d1c4ba5cf97cac",
 		"module.json": "bcff383505f6a270b4f9d96ac83eb6d39adb7adf657442b246d25e8558decef7",
 		"settings-migrator.js": "6d45c47418ddf7975ca1991b7b544fc95d3f1bf1781cd0bf71299e9d103c5f06"
