@@ -1,12 +1,12 @@
 {
   "runtimeTarget": {
-    "name": ".NETCoreApp,Version=v3.1",
+    "name": ".NETCoreApp,Version=v5.0",
     "signature": ""
   },
   "compilationOptions": {},
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
-      "TCC/1.4.107": {
+    ".NETCoreApp,Version=v5.0": {
+      "TCC/1.4.108": {
         "dependencies": {
           "HtmlAgilityPack": "1.11.18",
           "Microsoft.Diagnostics.Runtime": "2.0.130507",
@@ -179,14 +179,7 @@
           "System.Threading.Tasks": "4.3.0"
         }
       },
-      "System.Collections.Immutable/1.7.1": {
-        "runtime": {
-          "lib/netstandard2.0/System.Collections.Immutable.dll": {
-            "assemblyVersion": "1.2.5.0",
-            "fileVersion": "4.700.20.21406"
-          }
-        }
-      },
+      "System.Collections.Immutable/1.7.1": {},
       "System.Diagnostics.Debug/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
@@ -318,14 +311,7 @@
           "System.Runtime": "4.3.0"
         }
       },
-      "System.Reflection.Metadata/1.8.1": {
-        "runtime": {
-          "lib/netstandard2.0/System.Reflection.Metadata.dll": {
-            "assemblyVersion": "1.4.5.0",
-            "fileVersion": "4.700.20.21406"
-          }
-        }
-      },
+      "System.Reflection.Metadata/1.8.1": {},
       "System.Reflection.Primitives/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
@@ -348,14 +334,7 @@
           "Microsoft.NETCore.Targets": "1.1.0"
         }
       },
-      "System.Runtime.CompilerServices.Unsafe/4.7.1": {
-        "runtime": {
-          "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {
-            "assemblyVersion": "4.0.6.0",
-            "fileVersion": "4.700.20.12001"
-          }
-        }
-      },
+      "System.Runtime.CompilerServices.Unsafe/4.7.1": {},
       "System.Runtime.Extensions/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
@@ -661,7 +640,7 @@
     }
   },
   "libraries": {
-    "TCC/1.4.107": {
+    "TCC/1.4.108": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
