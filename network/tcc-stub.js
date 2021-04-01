@@ -1,5 +1,5 @@
-const { TccInterface } = require("./tcc-interface");
-const { Globals } = require("./globals");
+const { TccInterface } = require("../client/lib/tcc-interface");
+const { Globals } = require("../client/lib/globals");
 
 // const BadGui = require('../badGui');
 class TccStub
@@ -8,17 +8,10 @@ class TccStub
     {
         this.mod = mod;
 
-        this.tcc = new TccInterface(mod);
+        this.globalMod().setNetworkMod(this);
+
         this.installHooks();
-
-        // soon (TM)
-        //this.gui = new BadGui(mod);
-        //this.mod.command.add('tcc-toggle-gpk', (guiName, bMode) => {
-        //    this.gui.parse([{
-        //        gpk: `OnGameEventShowUI,${guiName},${bMode}`
-        //    }],"HideCharWindow");
-        //});
-
+        
         //memes
         this.mod.hook("S_SYSTEM_MESSAGE", 1, ev =>
         {
@@ -34,23 +27,45 @@ class TccStub
             }
         });
 
-        this.mod.command.add("tcc", (arg) =>
+        this.mod.command.add("tcc", (cmd, a1, a2, a3, a4) =>
         {
-            if (arg !== "debug") return;
-            mod.settings.debug = !mod.settings.debug;
-            mod.command.message(`<font color="#cccccc">Debug mode </font><font color="#${(mod.settings.debug ? "42F5AD" : "F05164")}">${(mod.settings.debug ? "en" : "dis")}abled</font>`);
+	        switch (cmd) {
+	        case "debug":
+	        {
+				mod.settings.debug = !mod.settings.debug;
+				mod.command.message(`<font color="#cccccc">Debug mode </font><font color="#${(mod.settings.debug ? "42F5AD" : "F05164")}">${(mod.settings.debug ? "en" : "dis")}abled</font>`);
+				break;
+	        }
+            case "notify":
+            {
+	            this.globalMod().call("enqueueNotification",
+		            {
+                        'title' : a1,
+                        'message' : a2,
+                        'notificationType' : a3,
+                        'secDuration' : a4
+		            });
+	            mod.command.message(`<font color="#cccccc">Sending notification: </font><font color="#42F5AD">${a1} ${a2} ${a3} ${a4}</font>`);
+
+	            break;
+            }
+	        default:
+		        break;
+	        }
+
+
         });
 
         this.mod.command.add(":tcc-chatmode", (arg) =>
         {
             this.debug("Setting ChatMode to " + arg);
-            this.tcc.call("setChatMode", { 'chatMode': arg == "true" });
+            this.globalMod().call("setChatMode", { 'chatMode': arg == "true" });
         });
 
         this.mod.command.add(":tcc-uimode", (arg) =>
         {
             this.debug("Setting UiMode to " + arg);
-            this.tcc.call("setUiMode", { 'uiMode': arg == "true" });
+            this.globalMod().call("setUiMode", { 'uiMode': arg == "true" });
         });
 
         this.mod.command.add(":tcc-proxyOn:", (arg) => { });
@@ -59,9 +74,13 @@ class TccStub
 
     }
 
+    globalMod() {
+        return this.mod.globalMod;
+    }
+
     notifyShowIngameChatChanged()
     {
-        if(!Globals.EnableProxy || !Globals.TccChatEnabled) return;
+        if(!Globals.TccChatEnabled) return;
         this.mod.send("S_CHAT",
             3,
             {
@@ -105,7 +124,7 @@ class TccStub
             {
                 // Unknown command ":tcc-chatMode:false" 
                 let chatMode = text.indexOf(":true") != -1; // WTB <GPK Interface> /w me
-                this.tcc.call("setChatMode", { 'chatMode': chatMode });
+                this.globalMod().call("setChatMode", { 'chatMode': chatMode });
                 return true;
             }
 
@@ -115,12 +134,12 @@ class TccStub
             if (uiModeIdx != -1)
             {
                 let uiMode = text.indexOf(":true") != -1; // WTB <GPK Interface> /w me
-                this.tcc.call("setUiMode", { 'uiMode': uiMode });
+                this.globalMod().call("setUiMode", { 'uiMode': uiMode });
                 return true;
             }
 
             // handle normal proxy output (mostly /7 or /8)
-            this.tcc.call("handleChatMessage", {
+            this.globalMod().call("handleChatMessage", {
                 'author': author,
                 'channel': p.channel,
                 'message': text
@@ -130,7 +149,7 @@ class TccStub
         // register private proxy channels (like /7 and /8)
         this.mod.hook("S_JOIN_PRIVATE_CHANNEL", "raw", { order: 999, filter: { fake: true } }, (code, data, fromServer) =>
         {
-            this.tcc.call("handleRawPacket", {
+            this.globalMod().call("handleRawPacket", {
                 'direction': fromServer ? 2 : 1,
                 'content': data.toString("hex")
             });
@@ -139,8 +158,8 @@ class TccStub
         // notify to Chat2 that proxy is active
         this.mod.hook("C_LOAD_TOPO_FIN", "raw", () =>
         {
-            if (!Globals.EnableProxy || !Globals.TccChatEnabled) {
-                this.debug("Globals.EnableProxy is false, returning");
+            if (!Globals.TccChatEnabled) {
+                this.debug("Globals.TccChatEnabled is false, returning");
                 return true;
             }
             this.mod.setTimeout(() =>
@@ -196,7 +215,7 @@ class TccStub
 
     destructor()
     {
-        this.tcc.stopServer();
+        //this.globalMod().stopServer();
     }
 }
 

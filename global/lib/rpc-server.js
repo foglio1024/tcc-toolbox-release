@@ -6,9 +6,13 @@ class RpcServer
 {
     debug(msg)
     {
-        if (!this.mod.settings.debug) return;
-        this.mod.command.message(`<font color="#fff1b5">${msg}</font>`);
-        this.mod.log(`${msg}`);
+        //if (!this.mod.settings.debug) return;
+        //this.mod.command.message(`<font color="#fff1b5">${msg}</font>`);
+        //this.mod.log(`${msg}`);
+    }
+
+    setNetworkMod(networkMod) {
+        this.handler.setNetworkMod(networkMod);
     }
 
     constructor(mod)
@@ -31,14 +35,14 @@ class RpcServer
                     this.mod.error(`Failed to send data to TCC (error:${err.errno}).`);
                 }
             });
-            req.on("end", () =>
+            req.on("end", async () =>
             {
                 let rpcRequest = JSON.parse(body);
                 var rpcResult = null;
                 var respType = "result";
                 try
                 {
-                    rpcResult = this.handler.handle(rpcRequest);
+                    rpcResult = await this.handler.handle(rpcRequest);
                 }
                 catch (error)
                 {
@@ -51,6 +55,7 @@ class RpcServer
                 }
                 let jsonResponse = Helpers.buildResponse(rpcResult, rpcRequest.id, respType);
                 let stringResponse = JSON.stringify(jsonResponse);
+                //this.mod.log("Sending response of "+ rpcRequest.method +": " + stringResponse);
                 res.writeHead(200, Helpers.buildHeaders(stringResponse.length));
                 res.write(stringResponse);
                 res.end();
