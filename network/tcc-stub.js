@@ -1,4 +1,4 @@
-const { Globals } = require("../client/lib/globals");
+const { Globals } = require("../global/lib/globals");
 
 // const BadGui = require('../badGui');
 class TccStub
