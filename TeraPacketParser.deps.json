@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v5.0": {
       "TeraPacketParser/1.0.0": {
         "dependencies": {
-          "Nostrum": "1.2.14",
+          "Nostrum": "1.2.15",
           "PacketDotNet": "1.2.0",
           "SharpPcap": "5.4.0",
           "TeraDataLite": "1.0.0"
@@ -17,11 +17,11 @@
           "TeraPacketParser.dll": {}
         }
       },
-      "Nostrum/1.2.14": {
+      "Nostrum/1.2.15": {
         "runtime": {
           "lib/netcoreapp3.1/Nostrum.dll": {
-            "assemblyVersion": "1.2.14.0",
-            "fileVersion": "1.2.14.0"
+            "assemblyVersion": "1.2.15.0",
+            "fileVersion": "1.2.15.0"
           }
         }
       },
@@ -63,12 +63,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Nostrum/1.2.14": {
+    "Nostrum/1.2.15": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-m6N+mCLEYFfY+mhS9JeZnIU4E2Wteqmva8IaMD5aofhdXn6ERkDolUYtpUkjSLjeff0HwJdyse+nR33j+n0LRg==",
-      "path": "nostrum/1.2.14",
-      "hashPath": "nostrum.1.2.14.nupkg.sha512"
+      "sha512": "sha512-aghi6QiwDB7WhEeMQFEN1B+9aOSagkOhA9nkI2/S6wrMABFwde6dMgYjv+FfVgeRvdqpLt/SR1daDVrELZiwHg==",
+      "path": "nostrum/1.2.15",
+      "hashPath": "nostrum.1.2.15.nupkg.sha512"
     },
     "PacketDotNet/1.2.0": {
       "type": "package",

@@ -8,11 +8,11 @@
     ".NETCoreApp,Version=v5.0": {
       "TCC/1.4.119": {
         "dependencies": {
-          "HtmlAgilityPack": "1.11.30",
-          "Microsoft.Diagnostics.Runtime": "2.0.161401",
+          "HtmlAgilityPack": "1.11.32",
+          "Microsoft.Diagnostics.Runtime": "2.0.217201",
           "Microsoft.Xaml.Behaviors.Wpf": "1.1.31",
-          "Newtonsoft.Json": "13.0.1-beta1",
-          "Nostrum": "1.2.14",
+          "Newtonsoft.Json": "13.0.1",
+          "Nostrum": "1.2.15",
           "TCC.Loader": "1.0.0",
           "TCC.Utils": "1.0.0",
           "TeraDataLite": "1.0.0",
@@ -32,11 +32,11 @@
           }
         }
       },
-      "HtmlAgilityPack/1.11.30": {
+      "HtmlAgilityPack/1.11.32": {
         "runtime": {
           "lib/netstandard2.0/HtmlAgilityPack.dll": {
-            "assemblyVersion": "1.11.30.0",
-            "fileVersion": "1.11.30.0"
+            "assemblyVersion": "1.11.32.0",
+            "fileVersion": "1.11.32.0"
           }
         }
       },
@@ -48,7 +48,7 @@
           }
         }
       },
-      "Microsoft.Diagnostics.Runtime/2.0.161401": {
+      "Microsoft.Diagnostics.Runtime/2.0.217201": {
         "dependencies": {
           "Microsoft.Diagnostics.NETCore.Client": "0.2.61701",
           "System.Buffers": "4.5.1",
@@ -59,8 +59,8 @@
         },
         "runtime": {
           "lib/net5.0/Microsoft.Diagnostics.Runtime.dll": {
-            "assemblyVersion": "2.0.3.11401",
-            "fileVersion": "2.0.3.11401"
+            "assemblyVersion": "2.0.4.17201",
+            "fileVersion": "2.0.4.17201"
           }
         }
       },
@@ -72,19 +72,19 @@
           }
         }
       },
-      "Newtonsoft.Json/13.0.1-beta1": {
+      "Newtonsoft.Json/13.0.1": {
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {
             "assemblyVersion": "13.0.0.0",
-            "fileVersion": "13.0.1.25331"
+            "fileVersion": "13.0.1.25517"
           }
         }
       },
-      "Nostrum/1.2.14": {
+      "Nostrum/1.2.15": {
         "runtime": {
           "lib/netcoreapp3.1/Nostrum.dll": {
-            "assemblyVersion": "1.2.14.0",
-            "fileVersion": "1.2.14.0"
+            "assemblyVersion": "1.2.15.0",
+            "fileVersion": "1.2.15.0"
           }
         }
       },
@@ -126,8 +126,8 @@
       },
       "TCC.Utils/1.0.0": {
         "dependencies": {
-          "HtmlAgilityPack": "1.11.30",
-          "Nostrum": "1.2.14"
+          "HtmlAgilityPack": "1.11.32",
+          "Nostrum": "1.2.15"
         },
         "runtime": {
           "TCC.Utils.dll": {}
@@ -140,7 +140,7 @@
       },
       "TeraPacketParser/1.0.0": {
         "dependencies": {
-          "Nostrum": "1.2.14",
+          "Nostrum": "1.2.15",
           "PacketDotNet": "1.2.0",
           "SharpPcap": "5.4.0",
           "TeraDataLite": "1.0.0"
@@ -172,12 +172,12 @@
       "path": "gong-wpf-dragdrop/2.3.2",
       "hashPath": "gong-wpf-dragdrop.2.3.2.nupkg.sha512"
     },
-    "HtmlAgilityPack/1.11.30": {
+    "HtmlAgilityPack/1.11.32": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-IuOSVuuHCJKrnAjNe5rZnZCyR/NpXL6ExEL7UiM8h4fnhbt8tLqIKol9q5Lv0uoxWO8fl9Uq+1kpGfMDUdr5zA==",
-      "path": "htmlagilitypack/1.11.30",
-      "hashPath": "htmlagilitypack.1.11.30.nupkg.sha512"
+      "sha512": "sha512-c5eNfxPDvQSh7YClPuo+xkD1d5F4Qms4g+MG1UktytdHk/mvCFsbopLIsk+AKqByPmPvSl/xVmyogRBejf0DyQ==",
+      "path": "htmlagilitypack/1.11.32",
+      "hashPath": "htmlagilitypack.1.11.32.nupkg.sha512"
     },
     "Microsoft.Diagnostics.NETCore.Client/0.2.61701": {
       "type": "package",
@@ -186,12 +186,12 @@
       "path": "microsoft.diagnostics.netcore.client/0.2.61701",
       "hashPath": "microsoft.diagnostics.netcore.client.0.2.61701.nupkg.sha512"
     },
-    "Microsoft.Diagnostics.Runtime/2.0.161401": {
+    "Microsoft.Diagnostics.Runtime/2.0.217201": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-nNmtpo0LC265E66GyoftYZ3TSyptF+i3so/wc9AAtKK0w85Nrkz2EiF0oOzJgBXVw5grrbusxoiPOEpZoVkSSg==",
-      "path": "microsoft.diagnostics.runtime/2.0.161401",
-      "hashPath": "microsoft.diagnostics.runtime.2.0.161401.nupkg.sha512"
+      "sha512": "sha512-PaduL7RKjNa8pX7mKJh4SOrAl8MLVVld+U6tcvZFF82OMDnn4wSPX+CvtRcIMvdxC6hqIUuueLkAvQzDaEQRrw==",
+      "path": "microsoft.diagnostics.runtime/2.0.217201",
+      "hashPath": "microsoft.diagnostics.runtime.2.0.217201.nupkg.sha512"
     },
     "Microsoft.Xaml.Behaviors.Wpf/1.1.31": {
       "type": "package",
@@ -200,19 +200,19 @@
       "path": "microsoft.xaml.behaviors.wpf/1.1.31",
       "hashPath": "microsoft.xaml.behaviors.wpf.1.1.31.nupkg.sha512"
     },
-    "Newtonsoft.Json/13.0.1-beta1": {
+    "Newtonsoft.Json/13.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-XqyEqeyn0RVaYpgwbpTw6Es1rFJIa/BHn8TNv2V6KkxRFohfwzN1e9z2THfOXnRoI51vREtNE5GfQ6LND9m1Kg==",
-      "path": "newtonsoft.json/13.0.1-beta1",
-      "hashPath": "newtonsoft.json.13.0.1-beta1.nupkg.sha512"
+      "sha512": "sha512-ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "path": "newtonsoft.json/13.0.1",
+      "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
     },
-    "Nostrum/1.2.14": {
+    "Nostrum/1.2.15": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-m6N+mCLEYFfY+mhS9JeZnIU4E2Wteqmva8IaMD5aofhdXn6ERkDolUYtpUkjSLjeff0HwJdyse+nR33j+n0LRg==",
-      "path": "nostrum/1.2.14",
-      "hashPath": "nostrum.1.2.14.nupkg.sha512"
+      "sha512": "sha512-aghi6QiwDB7WhEeMQFEN1B+9aOSagkOhA9nkI2/S6wrMABFwde6dMgYjv+FfVgeRvdqpLt/SR1daDVrELZiwHg==",
+      "path": "nostrum/1.2.15",
+      "hashPath": "nostrum.1.2.15.nupkg.sha512"
     },
     "PacketDotNet/1.2.0": {
       "type": "package",
