@@ -1,12 +1,12 @@
 {
   "runtimeTarget": {
-    "name": ".NETCoreApp,Version=v5.0",
+    "name": ".NETCoreApp,Version=v6.0",
     "signature": ""
   },
   "compilationOptions": {},
   "targets": {
-    ".NETCoreApp,Version=v5.0": {
-      "TCC/1.4.130": {
+    ".NETCoreApp,Version=v6.0": {
+      "TCC/1.4.131": {
         "dependencies": {
           "HtmlAgilityPack": "1.11.32",
           "Microsoft.Diagnostics.Runtime": "2.0.217201",
@@ -186,7 +186,7 @@
     }
   },
   "libraries": {
-    "TCC/1.4.130": {
+    "TCC/1.4.131": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
