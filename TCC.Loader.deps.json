@@ -14,26 +14,26 @@
           "TCC.Loader.dll": {}
         }
       },
-      "HtmlAgilityPack/1.11.32": {
+      "HtmlAgilityPack/1.11.46": {
         "runtime": {
           "lib/netstandard2.0/HtmlAgilityPack.dll": {
-            "assemblyVersion": "1.11.32.0",
-            "fileVersion": "1.11.32.0"
+            "assemblyVersion": "1.11.46.0",
+            "fileVersion": "1.11.46.0"
           }
         }
       },
-      "Nostrum/2.0.9": {
+      "Nostrum/2.0.10": {
         "runtime": {
           "lib/net6.0/Nostrum.dll": {
-            "assemblyVersion": "2.0.9.0",
-            "fileVersion": "2.0.9.0"
+            "assemblyVersion": "2.0.10.0",
+            "fileVersion": "2.0.10.0"
           }
         }
       },
       "TCC.Utils/1.0.0": {
         "dependencies": {
-          "HtmlAgilityPack": "1.11.32",
-          "Nostrum": "2.0.9"
+          "HtmlAgilityPack": "1.11.46",
+          "Nostrum": "2.0.10"
         },
         "runtime": {
           "TCC.Utils.dll": {}
@@ -47,19 +47,19 @@
       "serviceable": false,
       "sha512": ""
     },
-    "HtmlAgilityPack/1.11.32": {
+    "HtmlAgilityPack/1.11.46": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-c5eNfxPDvQSh7YClPuo+xkD1d5F4Qms4g+MG1UktytdHk/mvCFsbopLIsk+AKqByPmPvSl/xVmyogRBejf0DyQ==",
-      "path": "htmlagilitypack/1.11.32",
-      "hashPath": "htmlagilitypack.1.11.32.nupkg.sha512"
+      "sha512": "sha512-dLMn4EVfJBHWmWK4Uh0XGD76FPLHI0qr2Tm0s1m/xmgiHb1JUb9zB8AzO8HtrkBBlMN6JfCUBYddhqC0hZNR+g==",
+      "path": "htmlagilitypack/1.11.46",
+      "hashPath": "htmlagilitypack.1.11.46.nupkg.sha512"
     },
-    "Nostrum/2.0.9": {
+    "Nostrum/2.0.10": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Y0YrBO6560etqiKhcQ8Je42IjbzmIVoefbBCWhhrwdZBoPQ7th5VmxcRxIa/YpmOeqWMxPlTsbpOVEtxdZKQVA==",
-      "path": "nostrum/2.0.9",
-      "hashPath": "nostrum.2.0.9.nupkg.sha512"
+      "sha512": "sha512-t/cu8ngfY3g37QbKSJwXW+xQM6K6VktiSkqCUiNixd4yZQXlaWb0ClRmDwSUH6hvd2VqR/wdZusV851JpH+16Q==",
+      "path": "nostrum/2.0.10",
+      "hashPath": "nostrum.2.0.10.nupkg.sha512"
     },
     "TCC.Utils/1.0.0": {
       "type": "project",
