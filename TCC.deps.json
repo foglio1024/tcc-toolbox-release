@@ -1,12 +1,12 @@
 {
   "runtimeTarget": {
-    "name": ".NETCoreApp,Version=v6.0",
+    "name": ".NETCoreApp,Version=v7.0",
     "signature": ""
   },
   "compilationOptions": {},
   "targets": {
-    ".NETCoreApp,Version=v6.0": {
-      "TCC/1.4.138": {
+    ".NETCoreApp,Version=v7.0": {
+      "TCC/1.4.140": {
         "dependencies": {
           "HtmlAgilityPack": "1.11.46",
           "Microsoft.Diagnostics.Runtime": "2.3.405304",
@@ -162,22 +162,7 @@
           }
         }
       },
-      "Microsoft.Win32.SystemEvents/7.0.0": {
-        "runtime": {
-          "lib/net6.0/Microsoft.Win32.SystemEvents.dll": {
-            "assemblyVersion": "7.0.0.0",
-            "fileVersion": "7.0.22.51805"
-          }
-        },
-        "runtimeTargets": {
-          "runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll": {
-            "rid": "win",
-            "assetType": "runtime",
-            "assemblyVersion": "7.0.0.0",
-            "fileVersion": "7.0.22.51805"
-          }
-        }
-      },
+      "Microsoft.Win32.SystemEvents/7.0.0": {},
       "Microsoft.Xaml.Behaviors.Wpf/1.1.39": {
         "runtime": {
           "lib/net5.0-windows7.0/Microsoft.Xaml.Behaviors.dll": {
@@ -240,20 +225,6 @@
       "System.Drawing.Common/7.0.0": {
         "dependencies": {
           "Microsoft.Win32.SystemEvents": "7.0.0"
-        },
-        "runtime": {
-          "lib/net6.0/System.Drawing.Common.dll": {
-            "assemblyVersion": "7.0.0.0",
-            "fileVersion": "7.0.22.51805"
-          }
-        },
-        "runtimeTargets": {
-          "runtimes/win/lib/net6.0/System.Drawing.Common.dll": {
-            "rid": "win",
-            "assetType": "runtime",
-            "assemblyVersion": "7.0.0.0",
-            "fileVersion": "7.0.22.51805"
-          }
         }
       },
       "System.Memory/4.5.4": {},
@@ -316,7 +287,7 @@
     }
   },
   "libraries": {
-    "TCC/1.4.138": {
+    "TCC/1.4.140": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
