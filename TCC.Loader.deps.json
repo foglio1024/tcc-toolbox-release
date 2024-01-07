@@ -22,18 +22,18 @@
           }
         }
       },
-      "Nostrum/2.0.10": {
+      "Nostrum/2.0.11": {
         "runtime": {
-          "lib/net6.0/Nostrum.dll": {
-            "assemblyVersion": "2.0.10.0",
-            "fileVersion": "2.0.10.0"
+          "lib/net8.0/Nostrum.dll": {
+            "assemblyVersion": "2.0.11.0",
+            "fileVersion": "2.0.11.0"
           }
         }
       },
       "TCC.Utils/1.0.0": {
         "dependencies": {
           "HtmlAgilityPack": "1.11.46",
-          "Nostrum": "2.0.10"
+          "Nostrum": "2.0.11"
         },
         "runtime": {
           "TCC.Utils.dll": {}
@@ -54,12 +54,12 @@
       "path": "htmlagilitypack/1.11.46",
       "hashPath": "htmlagilitypack.1.11.46.nupkg.sha512"
     },
-    "Nostrum/2.0.10": {
+    "Nostrum/2.0.11": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-t/cu8ngfY3g37QbKSJwXW+xQM6K6VktiSkqCUiNixd4yZQXlaWb0ClRmDwSUH6hvd2VqR/wdZusV851JpH+16Q==",
-      "path": "nostrum/2.0.10",
-      "hashPath": "nostrum.2.0.10.nupkg.sha512"
+      "sha512": "sha512-7FGCMrnrkFoX7zFzFPGLHInMyuO2B5hTfXDCGb6JtC5dS6XyhuhF62QmOWV7RsX1ynCCEhXL9CB7Ad/5Hzz4GA==",
+      "path": "nostrum/2.0.11",
+      "hashPath": "nostrum.2.0.11.nupkg.sha512"
     },
     "TCC.Utils/1.0.0": {
       "type": "project",

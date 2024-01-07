@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v8.0": {
-      "TCC/1.4.155": {
+      "TCC/1.4.156": {
         "dependencies": {
           "HtmlAgilityPack": "1.11.46",
           "JetBrains.Annotations": "2023.2.0",
           "Microsoft.Diagnostics.Runtime": "2.3.405304",
           "Microsoft.Xaml.Behaviors.Wpf": "1.1.39",
-          "Newtonsoft.Json": "13.0.2",
-          "Nostrum": "2.0.10",
-          "Nostrum.WPF": "1.2.24",
+          "Newtonsoft.Json": "13.0.3",
+          "Nostrum": "2.0.11",
+          "Nostrum.WPF": "1.2.28",
           "TCC.Interop": "1.0.0",
           "TCC.Loader": "1.0.0",
           "TCC.Utils": "1.0.0",
@@ -171,7 +171,7 @@
           }
         }
       },
-      "Microsoft.Win32.SystemEvents/7.0.0": {},
+      "Microsoft.Win32.SystemEvents/8.0.0": {},
       "Microsoft.Xaml.Behaviors.Wpf/1.1.39": {
         "runtime": {
           "lib/net5.0-windows7.0/Microsoft.Xaml.Behaviors.dll": {
@@ -180,30 +180,30 @@
           }
         }
       },
-      "Newtonsoft.Json/13.0.2": {
+      "Newtonsoft.Json/13.0.3": {
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
             "assemblyVersion": "13.0.0.0",
-            "fileVersion": "13.0.2.27524"
+            "fileVersion": "13.0.3.27908"
           }
         }
       },
-      "Nostrum/2.0.10": {
+      "Nostrum/2.0.11": {
         "runtime": {
-          "lib/net6.0/Nostrum.dll": {
-            "assemblyVersion": "2.0.10.0",
-            "fileVersion": "2.0.10.0"
+          "lib/net8.0/Nostrum.dll": {
+            "assemblyVersion": "2.0.11.0",
+            "fileVersion": "2.0.11.0"
           }
         }
       },
-      "Nostrum.WPF/1.2.24": {
+      "Nostrum.WPF/1.2.28": {
         "dependencies": {
-          "Nostrum": "2.0.10"
+          "Nostrum": "2.0.11"
         },
         "runtime": {
-          "lib/net6.0-windows7.0/Nostrum.WPF.dll": {
-            "assemblyVersion": "1.2.24.0",
-            "fileVersion": "1.2.24.0"
+          "lib/net8.0-windows7.0/Nostrum.WPF.dll": {
+            "assemblyVersion": "1.2.28.0",
+            "fileVersion": "1.2.28.0"
           }
         }
       },
@@ -231,17 +231,17 @@
         }
       },
       "System.Collections.Immutable/5.0.0": {},
-      "System.Drawing.Common/7.0.0": {
+      "System.Drawing.Common/8.0.0": {
         "dependencies": {
-          "Microsoft.Win32.SystemEvents": "7.0.0"
+          "Microsoft.Win32.SystemEvents": "8.0.0"
         }
       },
       "System.Memory/4.5.4": {},
       "System.Runtime.CompilerServices.Unsafe/5.0.0": {},
       "TCC.Interop/1.0.0": {
         "dependencies": {
-          "Newtonsoft.Json": "13.0.2",
-          "Nostrum": "2.0.10",
+          "Newtonsoft.Json": "13.0.3",
+          "Nostrum": "2.0.11",
           "TCC.Utils": "1.0.0",
           "TeraPacketParser": "1.0.0"
         },
@@ -260,7 +260,7 @@
       "TCC.Utils/1.0.0": {
         "dependencies": {
           "HtmlAgilityPack": "1.11.46",
-          "Nostrum": "2.0.10"
+          "Nostrum": "2.0.11"
         },
         "runtime": {
           "TCC.Utils.dll": {}
@@ -273,11 +273,11 @@
       },
       "TeraPacketParser/1.0.0": {
         "dependencies": {
-          "Newtonsoft.Json": "13.0.2",
-          "Nostrum": "2.0.10",
+          "Newtonsoft.Json": "13.0.3",
+          "Nostrum": "2.0.11",
           "PacketDotNet": "1.2.0",
           "SharpPcap": "5.4.0",
-          "System.Drawing.Common": "7.0.0",
+          "System.Drawing.Common": "8.0.0",
           "TCC.Utils": "1.0.0",
           "TeraDataLite": "1.0.0"
         },
@@ -296,7 +296,7 @@
     }
   },
   "libraries": {
-    "TCC/1.4.155": {
+    "TCC/1.4.156": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -399,12 +399,12 @@
       "path": "microsoft.extensions.primitives/2.1.1",
       "hashPath": "microsoft.extensions.primitives.2.1.1.nupkg.sha512"
     },
-    "Microsoft.Win32.SystemEvents/7.0.0": {
+    "Microsoft.Win32.SystemEvents/8.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-2nXPrhdAyAzir0gLl8Yy8S5Mnm/uBSQQA7jEsILOS1MTyS7DbmV1NgViMtvV1sfCD1ebITpNwb1NIinKeJgUVQ==",
-      "path": "microsoft.win32.systemevents/7.0.0",
-      "hashPath": "microsoft.win32.systemevents.7.0.0.nupkg.sha512"
+      "sha512": "sha512-9opKRyOKMCi2xJ7Bj7kxtZ1r9vbzosMvRrdEhVhDz8j8MoBGgB+WmC94yH839NPH+BclAjtQ/pyagvi/8gDLkw==",
+      "path": "microsoft.win32.systemevents/8.0.0",
+      "hashPath": "microsoft.win32.systemevents.8.0.0.nupkg.sha512"
     },
     "Microsoft.Xaml.Behaviors.Wpf/1.1.39": {
       "type": "package",
@@ -413,26 +413,26 @@
       "path": "microsoft.xaml.behaviors.wpf/1.1.39",
       "hashPath": "microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512"
     },
-    "Newtonsoft.Json/13.0.2": {
+    "Newtonsoft.Json/13.0.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-R2pZ3B0UjeyHShm9vG+Tu0EBb2lC8b0dFzV9gVn50ofHXh9Smjk6kTn7A/FdAsC8B5cKib1OnGYOXxRBz5XQDg==",
-      "path": "newtonsoft.json/13.0.2",
-      "hashPath": "newtonsoft.json.13.0.2.nupkg.sha512"
+      "sha512": "sha512-HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "path": "newtonsoft.json/13.0.3",
+      "hashPath": "newtonsoft.json.13.0.3.nupkg.sha512"
     },
-    "Nostrum/2.0.10": {
+    "Nostrum/2.0.11": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-t/cu8ngfY3g37QbKSJwXW+xQM6K6VktiSkqCUiNixd4yZQXlaWb0ClRmDwSUH6hvd2VqR/wdZusV851JpH+16Q==",
-      "path": "nostrum/2.0.10",
-      "hashPath": "nostrum.2.0.10.nupkg.sha512"
+      "sha512": "sha512-7FGCMrnrkFoX7zFzFPGLHInMyuO2B5hTfXDCGb6JtC5dS6XyhuhF62QmOWV7RsX1ynCCEhXL9CB7Ad/5Hzz4GA==",
+      "path": "nostrum/2.0.11",
+      "hashPath": "nostrum.2.0.11.nupkg.sha512"
     },
-    "Nostrum.WPF/1.2.24": {
+    "Nostrum.WPF/1.2.28": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-/1pARSEa9gwD6h+/+qU5LU6Q6JqAizX+MgGb3usiOd0X65i7JbP/4Q0UY2BJPMu4i84hkMqxGIJjliGeZxsEMg==",
-      "path": "nostrum.wpf/1.2.24",
-      "hashPath": "nostrum.wpf.1.2.24.nupkg.sha512"
+      "sha512": "sha512-uBG/5FGpCS2h5G4V0KjZQQ0MgR4XYH6g3eaktWZNPUQwAc0SZiZLtzSWTKb3PV52AWCuTYgaiAzb+D2JuJ7+/w==",
+      "path": "nostrum.wpf/1.2.28",
+      "hashPath": "nostrum.wpf.1.2.28.nupkg.sha512"
     },
     "PacketDotNet/1.2.0": {
       "type": "package",
@@ -455,12 +455,12 @@
       "path": "system.collections.immutable/5.0.0",
       "hashPath": "system.collections.immutable.5.0.0.nupkg.sha512"
     },
-    "System.Drawing.Common/7.0.0": {
+    "System.Drawing.Common/8.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-KIX+oBU38pxkKPxvLcLfIkOV5Ien8ReN78wro7OF5/erwcmortzeFx+iBswlh2Vz6gVne0khocQudGwaO1Ey6A==",
-      "path": "system.drawing.common/7.0.0",
-      "hashPath": "system.drawing.common.7.0.0.nupkg.sha512"
+      "sha512": "sha512-JkbHJjtI/dWc5dfmEdJlbe3VwgZqCkZRtfuWFh5GOv0f+gGCfBtzMpIVkmdkj2AObO9y+oiOi81UGwH3aBYuqA==",
+      "path": "system.drawing.common/8.0.0",
+      "hashPath": "system.drawing.common.8.0.0.nupkg.sha512"
     },
     "System.Memory/4.5.4": {
       "type": "package",
