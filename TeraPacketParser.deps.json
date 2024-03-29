@@ -28,22 +28,7 @@
           }
         }
       },
-      "Microsoft.Win32.SystemEvents/8.0.0": {
-        "runtime": {
-          "lib/net8.0/Microsoft.Win32.SystemEvents.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.23.53103"
-          }
-        },
-        "runtimeTargets": {
-          "runtimes/win/lib/net8.0/Microsoft.Win32.SystemEvents.dll": {
-            "rid": "win",
-            "assetType": "runtime",
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.23.53103"
-          }
-        }
-      },
+      "Microsoft.Win32.SystemEvents/8.0.0": {},
       "Newtonsoft.Json/13.0.3": {
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
@@ -86,12 +71,6 @@
       "System.Drawing.Common/8.0.0": {
         "dependencies": {
           "Microsoft.Win32.SystemEvents": "8.0.0"
-        },
-        "runtime": {
-          "lib/net8.0/System.Drawing.Common.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.23.53105"
-          }
         }
       },
       "System.Memory/4.5.4": {},
