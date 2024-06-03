@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v8.0": {
-      "TCC/1.4.165": {
+      "TCC/1.4.166": {
         "dependencies": {
           "HtmlAgilityPack": "1.11.46",
           "JetBrains.Annotations": "2023.2.0",
@@ -296,7 +296,7 @@
     }
   },
   "libraries": {
-    "TCC/1.4.165": {
+    "TCC/1.4.166": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
